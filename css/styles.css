@@ -494,3 +494,123 @@ background:
   display: block;
   clip-path: circle(42%);
 }
+.skill-card{
+  width: 100%;
+  border-radius: 10px;
+  background: #FFFFFF;
+box-shadow: -3px 3px 14px rgba(0, 0, 0, 0.25);
+border-radius: 6px;
+}
+.skill-section{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.CARD-CONTENT{
+  padding: 1rem;
+}
+.card-heading h1{
+  font-size: 20px;
+}
+.card-heading p{
+  font-size: 12px;
+}
+.card-btn{
+  width: 100%;
+}
+.servic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.skills{
+  background-color: #eff0f4;
+}
+.skills h2{
+  font-size: 16px;
+  color: green;
+}
+.skill-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+.skill-container .container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 0;
+  gap: 40px 60px;
+}
+.skill-container .container .drop{
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 20px 20px 20px rgba(0, 0, 0, 0.05), 25px 35px 20px rgba(0, 0, 0, 0.05), 25px 30px 30px rgba(0, 0, 0, 0.05),
+  inset -20px -20px 25px rgba(255, 255, 255, 0.9);
+  transition: 0.5s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .drop:nth-child(1){
+  border-radius: 79% 21% 36% 64% / 75% 31% 69% 25% ;
+}
+.container .drop:nth-child(2){
+  border-radius: 26% 74% 10% 90% / 71% 81% 19% 29%  ;
+}
+.container .drop:nth-child(3){
+  border-radius: 26% 74% 10% 90% / 67% 61% 39% 33% ;
+}
+.container .drop:hover{
+  border-radius: 50%;
+
+}
+.container .drop .content{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 40px;
+  gap: 15px;
+}
+.container .drop .content h2{
+  position: relative;
+  height: 80px;
+  width: 80px;
+  background-color: #eff0f4;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: var(--clr);
+  box-shadow: inset 20px 20px 20px rgba(0, 0, 0, 0.05), 25px 35px 20px rgba(0, 0, 0, 0.05), 25px 30px 30px rgba(0, 0, 0, 0.05),
+  inset -20px -20px 25px rgba(255, 255, 255, 0.9);
+  
+}
+.container .drop .content a{
+  position: relative;
+  padding: 10px 25px;
+  background-color: var(--clr);
+  border-radius: 25px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+  opacity: 0.75;
+}
+.container .drop .content a:hover{
+  opacity: 1;
+}
+.container .drop .content p span{
+  color: var(--clr);
+}
